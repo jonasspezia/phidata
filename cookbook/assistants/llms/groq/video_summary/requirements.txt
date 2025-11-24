@@ -42,7 +42,7 @@ gitpython==3.1.43
     #   phidata
     #   streamlit
 groq==0.5.0
-    # via -r cookbook/llms/groq/video_summary/requirements.in
+    # via -r requirements.in
 h11==0.14.0
     # via httpcore
 httpcore==1.0.5
@@ -86,10 +86,10 @@ pandas==2.2.2
     #   altair
     #   streamlit
 phidata==2.4.20
-    # via -r cookbook/llms/groq/video_summary/requirements.in
+    # via -r requirements.in
 pillow==10.3.0
     # via streamlit
-protobuf==4.25.3
+protobuf==4.25.8
     # via streamlit
 pyarrow==16.0.0
     # via streamlit
@@ -145,7 +145,7 @@ sniffio==1.3.1
     #   groq
     #   httpx
 streamlit==1.33.0
-    # via -r cookbook/llms/groq/video_summary/requirements.in
+    # via -r requirements.in
 tenacity==8.2.3
     # via streamlit
 toml==0.10.2
@@ -170,7 +170,9 @@ typing-extensions==4.11.0
     #   typer
 tzdata==2024.1
     # via pandas
-urllib3==1.26.18
+urllib3==2.5.0
     # via requests
+watchdog==6.0.0
+    # via streamlit
 youtube-transcript-api==0.6.2
-    # via -r cookbook/llms/groq/video_summary/requirements.in
+    # via -r requirements.in
